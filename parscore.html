@@ -49,7 +49,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.html" >Home</a></li>
-          <li class="dropdown"><a href="about_overview.html" ><span>About Us</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown"><a href="about_overview.html"><span>About Us</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="about_overview.html">Overview</a></li>
               <li><a href="vision_mission.html">Vision & Mission</a></li>
@@ -70,7 +70,7 @@
               <li><a href="scholorship.html">Scholarships</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="career_guidance.html" ><span>Academics</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown"><a href="career_guidance.html"><span>Academics</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="career_guidance.html">Career Guidance</a></li>
               <li><a href="campuses.html">Campuses</a></li>
@@ -93,7 +93,7 @@
               <li><a href="testimonials.html">Testimonials</a></li>
             </ul>
           </li>
-          <li><a href="contact_us.html" class="active">Contact Us</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -109,8 +109,7 @@
         <img src="assets/img/aero1.jpg" alt="" height="200" width="350" style="border-radius: 50%;"><br>
         <ol>
           <li><a href="index.html">Home</a></li>
-          <li>Contact us</li>
-          <!-- <li>Overview</li> -->
+          <li>PARSCORE Scholarship Test Registration</li>
         </ol>
 
       </div>
@@ -120,73 +119,88 @@
     <section id="contact" class="contact">
         <div class="container position-relative" data-aos="fade-up">
   
-          <div class="row gy-4 d-flex justify-content-end">
-  
-            <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
-  
-              <div class="info-item d-flex">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h4>Location:</h4>
-                  <p>VIJAYA COMPLEX,<br>
-                    CHEMBUMUKKU, EDAPPALLY, ERNAKULAM,<br>
-                    KERALA, INDIA</p>
-                </div>
-              </div><!-- End Info Item -->
-  
-              <div class="info-item d-flex">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h4>Email:</h4>
-                  <p>info@aitms.org</p>
-                </div>
-              </div><!-- End Info Item -->
-  
-              <div class="info-item d-flex">
-                <i class="bi bi-phone flex-shrink-0"></i>
-                <div>
-                  <h4>Call:</h4>
-                  <p>+91 95395 65055</p>
-                </div>
-              </div><!-- End Info Item -->
-  
-            </div>
-  
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
-  
-                <form id="contactForm2" action="contact_us.html" method="post">
+          <div class="row gy-4">
+            <div class="col-lg-3"></div>
+            
+            <div class="col-lg-6 justify-content-center" data-aos="fade-up" data-aos-delay="250">
+                <h2 class="text-center" style="font-family: 'Times New Roman', Times, serif;">PARSCORE Scholarship Test Registration</h2><br>
+                <form id="contactForm3" action="" method="post">
                     <div class="row g-3">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="name2" placeholder="Your Name" required name="name2">
-                                <label for="name2">Your Name</label>
-                                <small id="name-error2" style="color: red; display: none;" class="mt-1">Name should contain only alphabets</small>
+                                <input type="text" class="form-control" id="name3" placeholder="Your Name" required name="name3">
+                                <label for="name3">Name of the Student</label>
+                                <small id="name-error3" style="color: red; display: none;" class="mt-1">Name should contain only alphabets</small>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <div class="form-floating">
-                                <input type="email" class="form-control" id="email2" placeholder="Your Email" required name="email2">
-                                <label for="email2">Your Email</label>
-                                <small id="email-error2" style="color: red; display: none;" class="mt-1">Please enter a valid email address</small>
+                                <input type="text" class="form-control" id="sname" placeholder="Your Name" required name="sname">
+                                <label for="sname">School Name</label>
+                                <!-- <small id="sname-error" style="color: red; display: none;" class="mt-1">Name should contain only alphabets</small> -->
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <div class="form-floating">
-                                <input type="tel" class="form-control" id="phone2" placeholder="Your Phone Number" required name="phone2">
-                                <label for="phone2">Your Phone Number</label>
-                                <small id="phone-error2" style="color: red; display: none;" class="mt-1">Please enter a valid 10-digit phone number</small>
+                                <select class="form-select" id="select1" name="select1" required>
+                                    <option value="" selected>Select </option>
+                                    <option value="Aviation">Aviation</option>
+                                    <option value="Logistics">Logistics</option>
+                                    <option value="Information Technology">Information Technology</option>
+                                    <option value="Commerce">Commerce</option>
+                                </select>
+                                <label for="select1">Sector of Interest</label>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="subject2" placeholder="Subject" required name="subject2">
-                                <label for="subject2">Subject</label>
+                                <input type="tel" class="form-control" id="phone3" placeholder="Your Phone Number" required name="phone3">
+                                <label for="phone3">Your Phone Number</label>
+                                <small id="phone-error3" style="color: red; display: none;" class="mt-1">Please enter a valid 10-digit phone number</small>
                             </div>
                         </div>
-                        <div class="col-12">
+                        <div class="col-md-12">
                             <div class="form-floating">
-                                <textarea class="form-control" placeholder="Leave a message here" id="message2" style="height: 200px" required name="message2"></textarea>
-                                <label for="message2">Message</label>
+                                <input type="email" class="form-control" id="email3" placeholder="Your Email" required name="email3">
+                                <label for="email3">Your Email</label>
+                                <small id="email-error3" style="color: red; display: none;" class="mt-1">Please enter a valid email address</small>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-floating">
+                                <select class="form-select" id="select2" name="select2" required>
+                                    <option value="" selected>Select </option>
+                                    <option value="Kochi">Kochi</option>
+                                    <option value="Kozhikode">Kozhikode </option>
+                                    <option value="Mavelikkara">Mavelikkara</option>
+                                    <option value="Kannur">Kannur(coming soon)</option>
+                                    <option value="Thiruvanthapuram">Thiruvanthapuram(coming soon)</option>
+                                </select>
+                                <label for="select2">Preferred Location of Study & Test Center *</label>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-floating">
+                                <select class="form-select" id="select3" name="select3" required onchange="toggleOtherInput()">
+                                    <option value="" selected>Select </option>
+                                    <option value="Medicine">Medicine</option>
+                                    <option value="Engineering">Engineering</option>
+                                    <option value="Finance(CA, CS, ICWA, Commerce etc)">Finance(CA, CS, ICWA, Commerce etc)</option>
+                                    <option value="Law">Law</option>
+                                    <option value="Management">Management</option>
+                                    <option value="Journalism">Journalism</option>
+                                    <option value="Retail(Sales & Marketing)">Retail(Sales & Marketing)</option>
+                                    <option value="Architecture">Architecture</option>
+                                    <option value="Art & Social Service">Art & Social Service</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                                <label for="select3">Future Career Path</label>
+                            </div>
+                        </div>
+                        <div class="col-md-12" id="otherField" style="display: none;">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="otherInput" placeholder="Your Career Path" name="otherInput">
+                                <label for="otherInput">Specify Other Career Path</label>
                             </div>
                         </div>
                         <div class="col-12">
@@ -196,12 +210,11 @@
                 </form>
                 
                 <script>
-                    document.getElementById('contactForm2').addEventListener('submit', function(event) {
-                        var nameInput = document.getElementById('name2').value.trim();
-                        var emailInput = document.getElementById('email2').value.trim();
-                        var phoneInput = document.getElementById('phone2').value.trim();
-                        var subjectInput = document.getElementById('subject2').value.trim();
-                        var messageInput = document.getElementById('message2').value.trim();
+                    document.getElementById('contactForm3').addEventListener('submit', function(event) {
+                        var nameInput = document.getElementById('name3').value.trim();
+                        var emailInput = document.getElementById('email3').value.trim();
+                        var phoneInput = document.getElementById('phone3').value.trim();
+                        
                 
                         var nameRegex = /^[a-zA-Z ]+$/;
                         var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -210,39 +223,53 @@
                         var valid = true;
                 
                         if (!nameRegex.test(nameInput)) {
-                            document.getElementById('name-error2').style.display = 'block';
+                            document.getElementById('name-error3').style.display = 'block';
                             valid = false;
                         } else {
-                            document.getElementById('name-error2').style.display = 'none';
+                            document.getElementById('name-error3').style.display = 'none';
                         }
                 
                         if (!emailRegex.test(emailInput)) {
-                            document.getElementById('email-error2').style.display = 'block';
+                            document.getElementById('email-error3').style.display = 'block';
                             valid = false;
                         } else {
-                            document.getElementById('email-error2').style.display = 'none';
-                        } 
+                            document.getElementById('email-error3').style.display = 'none';
+                        }
                 
                         if (!phoneRegex.test(phoneInput)) {
-                            document.getElementById('phone-error2').style.display = 'block';
+                            document.getElementById('phone-error3').style.display = 'block';
                             valid = false;
                         } else {
-                            document.getElementById('phone-error2').style.display = 'none';
+                            document.getElementById('phone-error3').style.display = 'none';
                         }
                 
                         if (!valid) {
                             event.preventDefault(); // Prevent form submission
                         }
                     });
+                    function toggleOtherInput() {
+                        var selectValue = document.getElementById("select3").value;
+                        var otherField = document.getElementById("otherField");
+                        var otherInput = document.getElementById("otherInput");
+
+                        if (selectValue === "Other") {
+                            otherField.style.display = "block";
+                            otherInput.setAttribute("required", "required");
+                        } else {
+                            otherField.style.display = "none";
+                            otherInput.removeAttribute("required");
+                        }
+                    }
                 </script>
   
             </div><!-- End Contact Form -->
+            <div class="col-lg-3"></div>
+
   
           </div>
   
         </div>
       </section><!-- End Contact Section -->
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -332,3 +359,4 @@
 </body>
 
 </html>
+

@@ -2414,3 +2414,9 @@ section {
       padding-left: 20px; /* Adjust padding for smaller screens */
   }
 }
+
+/* Add custom styles for modal overlay and positioning */
+.modal-backdrop {
+  backdrop-filter: blur(5px);
+}
+
