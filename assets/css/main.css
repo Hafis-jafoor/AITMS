@@ -2420,3 +2420,15 @@ section {
   backdrop-filter: blur(5px);
 }
 
+/* latest news */
+.custom-close-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.custom-close-button:focus {
+  outline: none;
+}
