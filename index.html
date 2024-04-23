@@ -29,9 +29,37 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <!-- Add this in the <head> section of your HTML -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
 
 <body class="page-index">
+
+  <div class="mega-icon">
+    <i class="fa fa-envelope my-float1"></i>
+</div>
+<div class="icons-wrapper">
+    <a class="call-picker" href="tel:+919539565055" target="_blank">
+        <i class="fa fa-phone"></i>
+    </a>
+    <a class="whats-app" href="https://wa.me/9539565055" target="_blank">
+        <i class="fab fa-whatsapp my-float"></i>
+
+    </a>
+</div>
+
+<script>
+    document.querySelector('.mega-icon').addEventListener('click', function() {
+        const iconsWrapper = document.querySelector('.icons-wrapper');
+        if (iconsWrapper.style.display === 'block') {
+            iconsWrapper.style.display = 'none';
+        } else {
+            iconsWrapper.style.display = 'block';
+        }
+    });
+</script>
+
 
   <!-- Modal -->
 <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true" >
